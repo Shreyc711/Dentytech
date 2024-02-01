@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+
+
+    
+
+}
+
+.only-nav{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   padding: 5px 10px;
+   
+}
+
+.nav-1{
+    display: flex;
+   
+    align-items: center;
+    
+}
+
+.nav-1 h3{
+    border: 2px solid black;
+    border-radius: 1.4rem;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.nav-2{
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.nav-3 button{
+    border-radius: 1.4rem;
+    padding: 6px;
+    font-size: 14px;
+    
+
+}
+.nav-3 .btn-2{
+    background-color: rgb(202, 80, 49);
+    color: aliceblue;
+    font-weight: 500;
+    
+    
+}
+
+.three-lines{
+    font-size: 25px;
+}
+
+.advantages{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 180px;
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+.img1{
+    transform:translate(-50%,-50%) rotate(-30deg);
+}
+
+.img2{
+    transform: translate(-50%,-50%)  rotate(-20deg);
+}
+
+.img3{
+    transform: translate(-50%,-50%)  rotate(-10deg);
+}
+
+.bottom-text{
+    position: absolute;
+    bottom:5%;
+    left: 5%;
+    font-size: 15px;
+
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 35px;
+}
+
+.iconss{
+    position:absolute;
+    bottom: 7%;
+    right: 5%;
+
+    
+}
+.iconss i{
+    padding-left: 20px;
+}
+
+.last-line{
+    position: absolute;
+    bottom: 5%;
+    right: 3.9%;
+    font-size:15px ;
+}
